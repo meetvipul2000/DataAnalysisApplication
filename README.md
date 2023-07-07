@@ -132,11 +132,13 @@ After cleaning the dataset, data left with following shape.
 11) Coupon Acceptance by driving distance from coupon issuances.
     - Plotted 2 count plot for all three different proximity data given in the dataset.
    
-   ![countplot_GEQ5min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/c9ec809a-d8e9-4351-802a-781c68050e8b)
+   ![countplot_GEQ5min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/96936ee5-a360-4b7f-a8a2-d6127f56aa1c)
 
-   ![countplot_GEQ15min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/e29c66ef-e672-4fb6-93e1-16ab581d22f6)
+   ![countplot_GEQ15min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/4857fc7a-16cc-4dd1-995f-ab9b27cdad2d)
 
-   ![countplot_GEQ25min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/e9446e05-e900-4724-97c2-a3764c430ef6)
+   ![countplot_GEQ25min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/3b900db2-5ce2-4b8d-9ff3-7afba472bea9)
+
+
 
    Coupon distanced with 5 min have higher acceptance , followed by 15 mi n prximity distance.
 
