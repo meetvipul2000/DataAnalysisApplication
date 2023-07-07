@@ -27,6 +27,27 @@ After cleaning the dataset, data left with following shape.
 
 **Data Analysis**
 
+1) What Propostion of the  total population decided to accept coupon?
+
+    coupon accepted ratio = total accepted population /  total coupon issued * 100
+   
+2) Visualize Coupon column
+   
+     - Following chart display coupon distrubution among different redeem locations.
+
+       ![coupon_distribution_count](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/cc9b7e26-28cd-494c-acd2-2f310b100c92)
+
+   
+4) 
+
+5) 
+    
+6) 
+7)   
+
+8) 
+9) 
+
 
 
 **Sharing  results**
