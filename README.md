@@ -27,12 +27,12 @@ After cleaning the dataset, data left with following shape.
 
 **Data Analysis**
 
-1) What Propostion of the  total population decided to accept coupon?
+What Propostion of the  total population decided to accept coupon?
    - 
 
     coupon accepted ratio = total accepted population /  total coupon issued * 100
    
-3) Visualize Coupon column
+Visualize Coupon column
    -
    Following chart display coupon distrubution among different redeem locations.
 
@@ -40,14 +40,14 @@ After cleaning the dataset, data left with following shape.
 
    According to above chart most coffee house and max 20  Restaurant coupon issued higher compare to others.
        
-4) Visualize the temparature column
+Visualize the temparature column
    -
    Plotted histogram for different temprature coupon issued and coupon issued at higher temprature which mostly tells us summer period.
    Also we added coupon acceptance/rejection dimention in histogram and found that summer period coupn redumption is higher.
       
    ![Data_Distribution_by_Temperature](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/0419b13f-bd60-47d4-b62f-c0c2c1d708bb)
 
-6) Bar Coupon Invstigation
+Bar Coupon Invstigation
     -
     Bar coupon acceptance Ratio
    
@@ -104,7 +104,7 @@ After cleaning the dataset, data left with following shape.
                   Follow the same steps as above to see the comparision.
    ![pie__bar_coupon_accep_rate_not_a_widow_adlt_pass_more_than_once_bar_vistr_compar](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/4ede2331-2bba-4cdd-b2ac-6cf09581211a)
 
-7) Find out the the time when most coupon accpeted on a given day.
+Find out the the time when most coupon accpeted on a given day.
    -
    we create cross tab matrix between "time" and  "Y"  columns. As you can see below most coupon accepted during evening time.
 
@@ -113,7 +113,7 @@ After cleaning the dataset, data left with following shape.
       0	0.07	0.08	0.05	0.11	0.12
       1	0.11	0.08	0.10	0.15	0.13
  
-8) Coupon Acceptance rate between Driving driving same direction and opposite direction
+Coupon Acceptance rate between Driving driving same direction and opposite direction
    -
    Used Count plot to draw a accpetance rate for driver driving same and opposite direction.
 
@@ -121,7 +121,7 @@ After cleaning the dataset, data left with following shape.
 
    As ytou can notice drivers driving opposite direction accepting higher numnber of coupon compared to other driver.
 
-9) Coupon Acceptance ratio by Coupon Expiring period.
+Coupon Acceptance ratio by Coupon Expiring period.
    -
    Plotted the histogram using "expiration" column and added "Y" column dimension to see acceptance view.
 
@@ -129,7 +129,8 @@ After cleaning the dataset, data left with following shape.
 
    Coupon exipiring in a day time period accepted higher since 2hour is very less time to redeem coupon. It make sense.
    
-11) Coupon Acceptance by driving distance from coupon issuances.
+Coupon Acceptance by driving distance from coupon issuances.
+   -
     - Plotted 2 count plot for all three different proximity data given in the dataset.
    
    ![countplot_GEQ5min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/96936ee5-a360-4b7f-a8a2-d6127f56aa1c)
@@ -139,11 +140,10 @@ After cleaning the dataset, data left with following shape.
    ![countplot_GEQ25min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/3b900db2-5ce2-4b8d-9ff3-7afba472bea9)
 
 
-
    Coupon distanced with 5 min have higher acceptance , followed by 15 mi n prximity distance.
 
-   
-    - 
-13) 
 
-**Sharing  results**
+   Thanks for reading the analysis.
+
+   please leave a feedback!
+
