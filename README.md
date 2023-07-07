@@ -140,8 +140,27 @@ Coupon Acceptance by driving distance from coupon issuances.
 
    Coupon distanced with 5 min have higher acceptance , followed by 15 mi n prximity distance.
 
+Acceptance Rate by Coupons
+-
+In order to find Coupon Acceptance ratio between different coupons, we did a group by by coupon and sum the each group acceptance and calculated the ratio.
 
-   Thanks for reading the analysis.
+![acceptance_ratio_between_coupons](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/65b4cce0-c222-46f3-aec3-cb503b78010f)
 
-   please leave a feedback!
+As per above bar chart, Coffee coupon / Take out and Cheap Restaurant coupon  have most accepted and earlier we notice that evening time coupon accepted more so I guess it is for coffee and dinner purpose mostly.
+
+
+Rejection Rate by Coupons
+-
+In order to find Coupon Rejection ratio between different coupons, we did a group by  coupon  and sum the rejection count for each group and calculated the ratio.
+
+![rejected_ratio_between_coupons](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/07303f93-12a3-4488-b1da-af9443636310)
+
+As per the chart , Most coupon have rejected is coffee coupons compared to other coupons. 
+
+
+--------------------------------------------------------END------------------------------------------------------------
+
+Thanks for reading the analysis.
+
+please leave a feedback!
 
