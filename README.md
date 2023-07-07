@@ -28,23 +28,24 @@ After cleaning the dataset, data left with following shape.
 **Data Analysis**
 
 1) What Propostion of the  total population decided to accept coupon?
+   - 
 
     coupon accepted ratio = total accepted population /  total coupon issued * 100
    
-2) Visualize Coupon column
+3) Visualize Coupon column
    -
    Following chart display coupon distrubution among different redeem locations.
 
-       ![coupon_distribution_count](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/cc9b7e26-28cd-494c-acd2-2f310b100c92)
+   ![coupon_distribution_count](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/cc9b7e26-28cd-494c-acd2-2f310b100c92)
 
-       According to above chart most coffee house and max 20  Restaurant coupon issued higher compare to others.
+   According to above chart most coffee house and max 20  Restaurant coupon issued higher compare to others.
        
 4) Visualize the temparature column
    -
    Plotted histogram for different temprature coupon issued and coupon issued at higher temprature which mostly tells us summer period.
    Also we added coupon acceptance/rejection dimention in histogram and found that summer period coupn redumption is higher.
       
-      ![Data_Distribution_by_Temperature](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/0419b13f-bd60-47d4-b62f-c0c2c1d708bb)
+   ![Data_Distribution_by_Temperature](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/0419b13f-bd60-47d4-b62f-c0c2c1d708bb)
 
 6) Bar Coupon Invstigation
     -
