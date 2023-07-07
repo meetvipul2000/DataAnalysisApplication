@@ -94,25 +94,23 @@ Bar Coupon Invstigation
 
 
      *** compare the acceptance rate between drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry ***
+          
           Steps to find the result :
                   Follow the same steps as above to see the comparision.
 
    ![pie_bar_coupon_accep_rate_not_farming_occup_adlt_pass_more_than_once_bar_vistr_compar](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/f153f228-c309-463f-89ff-1e299d36fdb9)
 
  *** Compare the acceptance rates between those drivers who go to bars more than once a month, had passengers that were not a kid, and were not widowed ***
+          
           Steps to find the result :
                   Follow the same steps as above to see the comparision.
    ![pie__bar_coupon_accep_rate_not_a_widow_adlt_pass_more_than_once_bar_vistr_compar](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/4ede2331-2bba-4cdd-b2ac-6cf09581211a)
 
 Find out the the time when most coupon accpeted on a given day.
    -
-   we create cross tab matrix between "time" and  "Y"  columns. As you can see below most coupon accepted during evening time.
+   we create cross tab matrix between "time" and  "Y"  columns. We observed that most coupon accepted during evening time.
 
-   time	10AM	10PM	2PM	6PM	7AM
-      Y					
-      0	0.07	0.08	0.05	0.11	0.12
-      1	0.11	0.08	0.10	0.15	0.13
- 
+
 Coupon Acceptance rate between Driving driving same direction and opposite direction
    -
    Used Count plot to draw a accpetance rate for driver driving same and opposite direction.
