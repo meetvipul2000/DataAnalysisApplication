@@ -97,20 +97,51 @@ After cleaning the dataset, data left with following shape.
           Steps to find the result :
                   Follow the same steps as above to see the comparision.
 
+   ![pie_bar_coupon_accep_rate_not_farming_occup_adlt_pass_more_than_once_bar_vistr_compar](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/f153f228-c309-463f-89ff-1e299d36fdb9)
+
+ *** Compare the acceptance rates between those drivers who go to bars more than once a month, had passengers that were not a kid, and were not widowed ***
+          Steps to find the result :
+                  Follow the same steps as above to see the comparision.
+   ![pie__bar_coupon_accep_rate_not_a_widow_adlt_pass_more_than_once_bar_vistr_compar](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/4ede2331-2bba-4cdd-b2ac-6cf09581211a)
+
+7) Find out the the time when most coupon accpeted on a given day.
+   -
+   we create cross tab matrix between "time" and  "Y"  columns. As you can see below most coupon accepted during evening time.
+
+   time	10AM	10PM	2PM	6PM	7AM
+      Y					
+      0	0.07	0.08	0.05	0.11	0.12
+      1	0.11	0.08	0.10	0.15	0.13
+ 
+8) Coupon Acceptance rate between Driving driving same direction and opposite direction
+   -
+   Used Count plot to draw a accpetance rate for driver driving same and opposite direction.
+
+   ![countplot_opposite_direction_acceptance_coupon_count](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/6a29e393-d850-4fe4-a520-24a8da9884f7)
+
+   As ytou can notice drivers driving opposite direction accepting higher numnber of coupon compared to other driver.
+
+9) Coupon Acceptance ratio by Coupon Expiring period.
+   -
+   Plotted the histogram using "expiration" column and added "Y" column dimension to see acceptance view.
+
+   ![hist_coupon_acceptance_ratio_by_expiration](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/75aa6930-9a1c-4fd4-9ff6-faba0fafcf7d)
+
+   Coupon exipiring in a day time period accepted higher since 2hour is very less time to redeem coupon. It make sense.
    
-8) 
-
-9) 
+11) Coupon Acceptance by driving distance from coupon issuances.
+    - Plotted 2 count plot for all three different proximity data given in the dataset.
    
+   ![countplot_GEQ5min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/c9ec809a-d8e9-4351-802a-781c68050e8b)
 
-10) 
-    
-11) 
-12)   
+   ![countplot_GEQ15min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/e29c66ef-e672-4fb6-93e1-16ab581d22f6)
 
+   ![countplot_GEQ25min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/e9446e05-e900-4724-97c2-a3764c430ef6)
+
+   Coupon distanced with 5 min have higher acceptance , followed by 15 mi n prximity distance.
+
+   
+    - 
 13) 
-14) 
-
-
 
 **Sharing  results**
