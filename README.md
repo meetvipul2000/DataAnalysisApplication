@@ -49,7 +49,8 @@ After cleaning the dataset, data left with following shape.
 
 6) Bar Coupon Invstigation
     -
-    *** Bar coupon acceptance Ratio ***
+    Bar coupon acceptance Ratio
+   
           Bar Coupn Acceptance Ratio = ( Accepted Bar Coupon count / Total bar coupon issued ) * 100
 
           Bar coupon acception ratio : 41.19% 
@@ -62,7 +63,7 @@ After cleaning the dataset, data left with following shape.
                   3. find the total accepted bar coupon count.
                   4. divide the each group created in step 3 with total accepted coupon count to find the acceptance ratio for each "Bar"  group.
         
-                ![pie_bar_coupon_acceptance_rate_by_bar_visitor_freq](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/be74d5e3-bfec-450f-bfa1-5e50fcb3f95f)
+   ![pie_bar_coupon_acceptance_rate_by_bar_visitor_freq](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/be74d5e3-bfec-450f-bfa1-5e50fcb3f95f)
         
         
                  Pie chart says that visitor visting less than month or 1-3 times a month accepting coupon more. Frequent 
@@ -72,13 +73,35 @@ After cleaning the dataset, data left with following shape.
 
             Steps to find the result :
                   1. Filter the data with just bar coupon with accepted coupon data.
-                  2. rename the column name of "bar" column in a such a way so it creates only two distinct values. fist " visitor visting 3 or fewer time and other is visiting higher than 3 times month.
+                  2. rename the column name of "bar" column in a such a way so it creates only two distinct values.
+                     first visitor visting 3 or fewer time and other is visiting higher than 3 times month.
                   3. Follow the same steps above to find the accedptance ratio of these 2 groups and plt the pei chart.
 
-           ![pie_bar_coupon_acceptance_rate_by_bar_visitor_less_or above_3_times_month_freq](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/a22fc6d4-fd60-4988-9f93-38e5c6252663)
+   ![pie_bar_coupon_acceptance_rate_by_bar_visitor_less_or above_3_times_month_freq](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/a22fc6d4-fd60-4988-9f93-38e5c6252663)
 
-            Pie chart indicates that 81.3% percetage of acceptance ratio of vistor visting bar less than 3 months which we already notice in previous study also.
-          
+            Pie chart indicates that 81.3% percetage of acceptance ratio of vistor visting bar less than 3 months
+            which we already notice in previous study also.
+
+     *** Compare the acceptance rate between drivers who go to a bar more than once a month and are over the age of 25 to the all others ***
+
+          Steps to find the result :
+                  1. Filter the data with just bar coupon with accepted coupon data.
+                  2. Query the data with driver goes once a month and age over 25 nd count the total count.
+                  3. count the other population subtracting filtered  (step 2 query) count from total count (step 1 query)
+                  4. find the percentage of given criteria and other population.
+
+   ![pie_bar_coupon_acceptance_rate_btn_more_than_once_bar_visitor_age_25_more_with_others](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/5dd83b48-fe55-4175-bdc2-eb0ff9fe9e15)
+
+
+     *** Use the same process to compare the acceptance rate between drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry ***
+         Steps to find the result :
+                  1. Filter the data with just bar coupon with accepted coupon data.
+                  2. Create a following new columns with filtering data.
+                       - driver visits bar more once a month
+                       - driver had a passanger not  kid (includes only partner and friend)
+                       - occupation other than farming/ fishing and forestry.
+
+                   3. create a new data frame with new filtered columns and plot the heatmap to check the relation 
 8) 
 
 9) 
