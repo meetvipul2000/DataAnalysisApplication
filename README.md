@@ -93,15 +93,11 @@ After cleaning the dataset, data left with following shape.
    ![pie_bar_coupon_acceptance_rate_btn_more_than_once_bar_visitor_age_25_more_with_others](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/5dd83b48-fe55-4175-bdc2-eb0ff9fe9e15)
 
 
-     *** Use the same process to compare the acceptance rate between drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry ***
-         Steps to find the result :
-                  1. Filter the data with just bar coupon with accepted coupon data.
-                  2. Create a following new columns with filtering data.
-                       - driver visits bar more once a month
-                       - driver had a passanger not  kid (includes only partner and friend)
-                       - occupation other than farming/ fishing and forestry.
+     *** compare the acceptance rate between drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry ***
+          Steps to find the result :
+                  Follow the same steps as above to see the comparision.
 
-                   3. create a new data frame with new filtered columns and plot the heatmap to check the relation 
+   
 8) 
 
 9) 
