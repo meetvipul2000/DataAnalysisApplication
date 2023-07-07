@@ -32,21 +32,64 @@ After cleaning the dataset, data left with following shape.
     coupon accepted ratio = total accepted population /  total coupon issued * 100
    
 2) Visualize Coupon column
-   
-     - Following chart display coupon distrubution among different redeem locations.
+   -
+   Following chart display coupon distrubution among different redeem locations.
 
        ![coupon_distribution_count](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/cc9b7e26-28cd-494c-acd2-2f310b100c92)
 
+       According to above chart most coffee house and max 20  Restaurant coupon issued higher compare to others.
+       
+4) Visualize the temparature column
+   -
+   Plotted histogram for different temprature coupon issued and coupon issued at higher temprature which mostly tells us summer period.
+   Also we added coupon acceptance/rejection dimention in histogram and found that summer period coupn redumption is higher.
+      
+      ![Data_Distribution_by_Temperature](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/0419b13f-bd60-47d4-b62f-c0c2c1d708bb)
+
+6) Bar Coupon Invstigation
+    -
+    *** Bar coupon acceptance Ratio ***
+          Bar Coupn Acceptance Ratio = ( Accepted Bar Coupon count / Total bar coupon issued ) * 100
+
+          Bar coupon acception ratio : 41.19% 
+          
+    *** Compare the acceptance rate among all bar visitors ***
+
+            Steps to find the result :
+                  1. Filter the data with just bar coupon with accepted coupon data.
+                  2. group the accepted coupon count by "Bar" column and count the total accepted coupon
+                  3. find the total accepted bar coupon count.
+                  4. divide the each group created in step 3 with total accepted coupon count to find the acceptance ratio for each "Bar"  group.
+        
+                ![pie_bar_coupon_acceptance_rate_by_bar_visitor_freq](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/be74d5e3-bfec-450f-bfa1-5e50fcb3f95f)
+        
+        
+                 Pie chart says that visitor visting less than month or 1-3 times a month accepting coupon more. Frequent 
+                 drinker does not care about the coupon.
    
-4) 
+     *** Compare the acceptance rate between those who went to a bar 3 or fewer times a month to those who went more ***
 
-5) 
-    
-6) 
-7)   
+            Steps to find the result :
+                  1. Filter the data with just bar coupon with accepted coupon data.
+                  2. rename the column name of "bar" column in a such a way so it creates only two distinct values. fist " visitor visting 3 or fewer time and other is visiting higher than 3 times month.
+                  3. Follow the same steps above to find the accedptance ratio of these 2 groups and plt the pei chart.
 
+           ![pie_bar_coupon_acceptance_rate_by_bar_visitor_less_or above_3_times_month_freq](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/a22fc6d4-fd60-4988-9f93-38e5c6252663)
+
+            Pie chart indicates that 81.3% percetage of acceptance ratio of vistor visting bar less than 3 months which we already notice in previous study also.
+          
 8) 
+
 9) 
+   
+
+10) 
+    
+11) 
+12)   
+
+13) 
+14) 
 
 
 
