@@ -134,9 +134,7 @@ Coupon Acceptance by driving distance from coupon issuances.
     - Plotted 2 count plot for all three different proximity data given in the dataset.
    
    ![countplot_GEQ5min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/96936ee5-a360-4b7f-a8a2-d6127f56aa1c)
-
    ![countplot_GEQ15min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/4857fc7a-16cc-4dd1-995f-ab9b27cdad2d)
-
    ![countplot_GEQ25min_acceptance](https://github.com/meetvipul2000/MachinLearningApplication/assets/7953100/3b900db2-5ce2-4b8d-9ff3-7afba472bea9)
 
 
